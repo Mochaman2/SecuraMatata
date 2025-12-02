@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>SECURA <br>
+        <span id ="title-span">MATATA</span></h1>
+        <h2> Hakuna Matata. Una forma de ser.</h2>
+        <div id = "options">
+                 <label>Longitud <span id="count-field"></span></label><input id="length-field" type="number" placeholder="#" />
+                <input id="lowercase-field" type="checkbox" checked /><label for="lowercase-field">Minúsculas (a...z)</label> 
+                <input id="uppercase-field" type="checkbox" checked/><label for="uppercase-field">Mayúsculas (A...Z)</label>
+                <input id="numbers-field" type="checkbox" checked/><label for="numbers-field">Números (0...9)</label>
+                <input id="special-field" type="checkbox" checked/><label for="special-field">Especiales (!@#$):</label>
+        </div>
+        <button id = "generate-btn" onclick="generatePasswords()">Generar contraseña</button>
+        <div id = "horizontal-line"> </div>
+        <script src="index.js"></script>
+        <div id = "container">
+            <div class = "password" id ="pass1"></div>
+            <div class = "password" id ="pass2"></div>
+        </div>
+    </body>
+</html>
