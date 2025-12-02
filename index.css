@@ -44,6 +44,7 @@ h2{
 
 #container{
     display:flex;
+    gap:5px;
 }
 #options{
     font-weight: 100;
