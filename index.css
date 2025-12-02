@@ -44,7 +44,6 @@ h2{
 
 #container{
     display:flex;
-    justify-content: space-between;
 }
 #options{
     font-weight: 100;
